@@ -6,20 +6,24 @@ namespace Chapter02_Variables
     {
         static void Main(string[] args)
         {
-            double price = 14.56;
-            Console.WriteLine("price: {0}", price);
-            Console.WriteLine("sizeof: {0}", sizeof(double));
-            Console.WriteLine("default: {0}", default(double));
-            Console.WriteLine("min value: {0}", double.MinValue);
-            Console.WriteLine("max value: {0}", double.MaxValue);
-            Console.WriteLine("type: {0}", price.GetType());
-            Console.WriteLine("code: {0}", price.GetTypeCode());
-            Console.WriteLine("price: £{0}", price.ToString());
+            int aNumber = 567;
+            //This is implicit casting
+            //the int has been converted to a double
+            double doubleInteger = aNumber;
+            Console.WriteLine("{0} and {1}", aNumber ,doubleInteger);
+            
+            
+            //This is explicit casting
+            double aDouble = 156.86;
+            int aInteger = (int) aDouble;
+            Console.WriteLine("{0} and {1}", aDouble, aInteger);
+            
+            //Built in conversion
+            int varInt = 106;
+            double varDouble = 98.5;
+            Console.WriteLine(Convert.ToDouble(varInt));
+            Console.WriteLine(Convert.ToInt32(varDouble));
 
-            string myName = "Structure Vault";
-            Console.WriteLine("my name: {0}", myName);
-            Console.WriteLine("type: {0}", myName.GetType());
-            Console.WriteLine("code: {0}", myName.GetTypeCode());
         }
     }
 }
