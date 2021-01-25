@@ -10,20 +10,25 @@ namespace Chapter04_Collections
     {
         static void Main(string[] args)
         {
-            //Define a list of strings
-            List<string> groceries = new List<string>();
+            //Create a dictionary
+            IDictionary<int, string> groceries = new Dictionary<int, string>();
             
-            //Add some items to the list
-            groceries.Add("Milk");
-            groceries.Add("One Egg");
-            groceries.Add("Flour");
-            groceries.Add("Butter");
+            groceries.Add(1, "Milk");
+            groceries.Add(2, "Cream");
+            groceries.Add(3, "One Egg");
+            groceries.Add(4, "Flour");
+            groceries.Add(5, "Butter");
 
-            foreach (var item in groceries)
+            foreach (var grocery in groceries)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(grocery);
             }
-            
+
+            foreach (var grocery in groceries)
+            {
+                Console.WriteLine("Key: {0}, Value: {1}",grocery.Key,grocery.Value);
+            }
+          
         }
     }
 }

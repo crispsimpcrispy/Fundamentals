@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaper03-Logic", "Chaper03-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04-Collections", "Chapter04-Collections\Chapter04-Collections.csproj", "{0C63B121-B4E6-4563-B6F0-6B829DBC11EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05-Methods", "Chapter05-Methods\Chapter05-Methods.csproj", "{5428BC62-A134-4782-A7EC-EC2C4DC92F0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0C63B121-B4E6-4563-B6F0-6B829DBC11EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C63B121-B4E6-4563-B6F0-6B829DBC11EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C63B121-B4E6-4563-B6F0-6B829DBC11EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5428BC62-A134-4782-A7EC-EC2C4DC92F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5428BC62-A134-4782-A7EC-EC2C4DC92F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5428BC62-A134-4782-A7EC-EC2C4DC92F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5428BC62-A134-4782-A7EC-EC2C4DC92F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
